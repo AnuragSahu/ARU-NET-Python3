@@ -1,4 +1,5 @@
 import tensorflow as tf
+import os
 import numpy as np
 from scipy import misc
 from scipy.ndimage import affine_transform as scipy_affine_transform
@@ -41,6 +42,20 @@ def read_image_list(pathToList):
             filenames.append(line)
     f.close()
     return filenames#
+
+def read_images_from_folder(pathToFolder):
+    '''
+
+    :param pathToList:
+    :return:
+    '''
+    files = os.listdir(pathToFolder)
+    list_of_path = []
+    for f in files:
+        if(f.split(".")[-1] != "md"):
+            path = pathToFolder + f;
+            list_of_path.append(path)
+    return list_of_path
 
 
 def calcAffineMatrix(sourcePoints, targetPoints):

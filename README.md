@@ -1,5 +1,12 @@
 # ARU-Net: A Neural Pixel Labeler for Layout Analysis of Historical Documents
 
+------------------------------------------------------------------------
+
+## Instructions to run on Ada
+
+First get chill brooo!!!!
+
+------------------------------------------------------------------------
 ## Contents
 * [Introduction](#introduction)
 * [Installation](#installation)
