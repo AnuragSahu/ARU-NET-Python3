@@ -32,7 +32,7 @@ place the images for which you want the inferences inside the folder
 ./demo_images/Images_for_Inference/
 ```
 
-now come back this the repo parent
+now come back to the repo parent
 ```
 cd ~/NIHARIKA_BASELINES/ARU-NET-Python3/
 ```
