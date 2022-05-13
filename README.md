@@ -6,6 +6,52 @@
 
 First get chill brooo!!!!
 
+get a node by
+```
+sinteractive -c 10 -g 1
+```
+
+now move into your folder
+```
+cd NIHARIKA_BASELINES/
+```
+
+remove any exisiting code if there is 
+```
+rm -rf ARU-NET-Python3/
+```
+
+clone the repo and go inside
+```
+git clone https://github.com/AnuragSahu/ARU-NET-Python3.git
+cd ARU-NET-Python3/
+```
+
+place the images for which you want the inferences inside the folder
+```
+./demo_images/Images_for_Inference/
+```
+
+now come back this the repo parent
+```
+cd ~/NIHARIKA_BASELINES/ARU-NET-Python3/
+```
+
+code to run the inferences
+```
+conda activate bnet
+python run_demo_inference.py
+```
+
+You might face some warnings but
+CHILLLL BROO!!!
+
+after some time you will have your results in 
+```
+./demo_images/Infered_results/channel_0/ # for sentence horizontal detection
+./demo_images/Infered_results/channel_1/ # for word vertical break
+./demo_images/Infered_results/channel_2/ # for channel 0 and 1 combined with white BG
+```
 ------------------------------------------------------------------------
 ## Contents
 * [Introduction](#introduction)
